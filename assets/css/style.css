@@ -1,8 +1,95 @@
-/*
+    /*
 Colores & tipografía: 
 Verde - #ABE188;
 Rosa - #F78E69;
 font-family: 'Raleway', sans-serif;
 */
-
-/* Escribe tu código acá debajo */
+    /* Escribe tu código acá debajo */
+    /*Cambiar estilo principal*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: 'Raleway';
+        background-color: #F78E69;
+        font-size: 16px;
+    }
+    /*Header*/
+    
+    header {
+        padding: 50px 30px;
+        text-align: right;
+    }
+    
+    header h1 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    /*Pictures*/
+    
+    #picture-one {
+        background-image: url('../img/uno.jpg');
+    }
+    
+    #picture-two {
+        background-image: url('../img/dos.jpg');
+    }
+    
+    .picture-container {
+        background-color: #ABE188;
+        padding: 200px;
+    }
+    
+    .picture-container h2 {
+        margin-top: -130px;
+        margin-bottom: 20px;
+        background-color: #ABE188;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .big-panda img {
+        display: inline-block;
+        box-sizing: border-box;
+        float: left;
+        width: 150px;
+        height: 150px;
+        border: 5px solid whitesmoke;
+        margin: 30px;
+    }
+    
+    #picture-three {
+        background-image: url('../img/tres.jpg');
+    }
+    
+    .pictures {
+        filter: grayscale(100%);
+        padding: 250px;
+        margin: 20px 0;
+        background-size: cover;
+        background-position: center;
+    }
+    /*Contenido*/
+    
+    .content {
+        padding: 40px 380px;
+        background-color: #ABE188;
+    }
+    
+    .about h2 {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+    
+    .content .about {
+        text-align: center;
+        padding: 20px 30px;
+        background-color: #F78E69;
+    }
+    /*Footer*/
+    
+    footer {
+        padding: 10px 0;
+        text-align: right;
+    }
